@@ -1,5 +1,8 @@
 body {
     background-color:#c9c9c9;
+    font-family:monospace;
+    color: #333;
+    text-align:center;
 }
 
 .exit-button {
@@ -14,3 +17,40 @@ body {
     width:50px;
 }
 
+/*Code for folder page*/
+
+.left-column {
+    text-align: left;
+    width:max-content;
+    padding:10px;
+    background-color:#f0f4f8;
+    border-radius: 2px solid #D2E3FA;
+    margin: 10px;
+    border-style:solid;
+    border-color: gray;
+    max-width: 200px;
+    top:50%;
+    left:100px;
+}
+
+.exit-button {
+    position:fixed;
+    top:5%;
+    right:20px;
+    cursor:pointer;
+}
+
+.exit-image {
+    height:auto;
+    width:50px;
+}
+
+.gojo-image {
+    height:auto;
+    width:200px;
+    align-items:center;
+}
+
+.gojo-sticker {
+    align-items:center;
+}

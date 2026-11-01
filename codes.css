@@ -1,0 +1,17 @@
+body{
+    background-color:#494953;
+    color:aquamarine;
+    font-family:monospace;
+}
+
+.exit-button {
+    position:fixed;
+    top:5%;
+    right:20px;
+    cursor:pointer;
+}
+
+.exit-image {
+    height:auto;
+    width:50px;
+}

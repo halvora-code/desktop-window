@@ -1,0 +1,43 @@
+body {
+    background-color:gray;
+    font-family:monospace;
+    text-align:center;
+    color:white;
+
+}
+
+/*Album covers*/
+
+.persona-image {
+    height:auto;
+    width: 100px;
+}
+
+.swim-image {
+    height:auto;
+    width: 100px;
+}
+
+.moment-image {
+    height:auto;
+    width: 100px;
+}
+
+.air-image {
+    height:auto;
+    width: 100px;
+}
+
+/*Exit button*/
+
+.exit-button {
+    position:fixed;
+    top:5%;
+    right:20px;
+    cursor:pointer;
+}
+
+.exit-image {
+    height:auto;
+    width: 50px;
+}

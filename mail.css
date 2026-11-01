@@ -1,0 +1,62 @@
+body {
+    background-color:aliceblue;
+    color:black;
+    font-family:monospace;
+}
+
+h2 {
+    font-size:2.30rem;
+    color:#6CA3EF;
+
+}
+
+.exit-button {
+    position:fixed;
+    top:5%;
+    right:20px;
+    cursor:pointer;
+}
+
+.exit-image {
+    height:auto;
+    width:50px;
+}
+
+.mail-image {
+    height:auto;
+    width:50px;
+}
+
+/* Dropdown menu */
+
+
+.text-box{
+    background-color: #f0f4f8;
+    border: 2px solid #D2E3FA;
+    border-radius:8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    max-width: 2000px;
+    line-height: 20px;
+}
+
+/*Email*/
+
+.email {
+    background-color:#f0f4f8;
+    border: 2px solid #D2E3FA;
+    border-radius: 8px;
+    margin: 10px;
+    max-width: 2000px;
+}
+
+.email-title {
+    padding: 20px;
+    cursor:pointer;
+}
+
+.email-content {
+    background-color:#D2E3FA;
+    padding: 20px;
+    border-top: 1px solid #D2E3FA;
+}
