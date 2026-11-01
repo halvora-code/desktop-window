@@ -1,0 +1,16 @@
+body {
+    background-color:#c9c9c9;
+}
+
+.exit-button {
+    position:fixed;
+    top:5%;
+    right:20px;
+    cursor:pointer;
+}
+
+.exit-image {
+    height:auto;
+    width:50px;
+}
+

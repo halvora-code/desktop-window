@@ -1,0 +1,42 @@
+body{
+    background-color:white;
+    color:#A1BDE8;
+    font-family:monospace;
+}
+
+.notepad {
+    width: 600px;
+    height: 600px;
+    background-color:#D7E3F5;
+    padding:15px;
+    border-radius:8px;
+    align-items:center;
+    margin:0;
+}
+
+.notepad textarea {
+    width:100%;
+    height:100%;
+    border:none;
+    outline:none;
+    resize:none;
+    background-color:white;
+    font-family:"Courier New", monospace;
+    font-size:15px;
+    padding:10px;
+    box-sizing:border-box;
+    align-items:center;
+    margin:0;
+}
+
+.exit-button {
+    position:fixed;
+    top:5%;
+    right:20px;
+    cursor:pointer;
+}
+
+.exit-image {
+    height:auto;
+    width:50px;
+}

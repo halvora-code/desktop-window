@@ -1,0 +1,55 @@
+.rainbow-text span:nth-child(1) { color:#B8B8FF;}
+.rainbow-text span:nth-child(2) { color:#FFB8B8;}
+.rainbow-text span:nth-child(3) { color:#FFFF8A;}
+.rainbow-text span:nth-child(4) { color: #B8B8FF;}
+.rainbow-text span:nth-child(5) { color:#B8FFB8;}
+.rainbow-text span:nth-child(6) { color:#FFB8B8;}
+
+body {
+    background-color:#F2F2F2;
+        background-size: 32px 32px;
+        align-items:center;
+        text-align:center;
+        font-family:monospace;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        min-height: 80vh;
+        margin:0;
+}
+
+h1{
+    text-align:center;
+    font-size:4.30rem;
+}
+
+.search-bar {
+    width:450px;
+    height:45px;
+    border-radius:30px;
+    background-color:white;
+    padding-left:20px;
+    display:flex;
+    align-items:center;
+}
+
+.google-container {
+    margin:0;
+    margin-top:-10px;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+
+.exit-button {
+    position:fixed;
+    top:5%;
+    right:20px;
+    cursor:pointer;
+}
+.exit-image{
+    height:auto;
+    width:50px;
+}

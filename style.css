@@ -308,3 +308,13 @@ main {
     z-index:1000;
 
 }
+
+
+/*Chrome page*/
+
+.rainbow-text span:nth-child(1) { color:#0000ff;}
+.rainbow-text span:nth-child(2) { color:#ff0000;}
+.rainbow-text span:nth-child(3) { color:#ffff00;}
+.rainbow-text span:nth-child(4) { color: #0000ff;}
+.rainbow-text span:nth-child(5) { color:#00ff00;}
+.rainbow-text span:nth-child(6) { color:#ff0000;}
