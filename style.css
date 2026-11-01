@@ -1,9 +1,154 @@
 body {
     background-color:#fffffe;
-    color:snow;
-    font-family:monoscript;
+    color:#c9c9c9;
+    background-image: url('gojo-desktop.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    display:flex;
+    font-family:monospace;
+    margin:0;
+    padding:0;
 }
 
+main {
+    text-align:center;
+    background-color: rgba(255,255,255,0.2);
+}
+
+/*Floaters*/
+.floater-folder {
+    position:fixed;
+    left:20px;
+    top: 50%;
+    transform: translateY(-50);
+    border:none;
+    background:none;
+    padding:0;
+    cursor:pointer;
+    background-color:transparent;
+    /*For text*/
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+
+.float-image {
+    width:120px;
+    height:auto;
+    background-color:transparent;
+    border:none;
+    max-width:100%;
+}
+
+.floater-folder p {
+    margin:0;
+    margin-top: -10px;
+    color:#7D99B0;
+    font-family:monospace;
+    font-size: 1.25rem;
+    background-color:rgba(220,220,220,0.2);
+}
+.code-floater {
+    position:fixed;
+    left:20px;
+    top: 30%;
+    transform: translateY(-50);
+    border:none;
+    background:none;
+    padding:0;
+    cursor:pointer;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.floater-image {
+    width:110px;
+    height:auto;
+    background-color:transparent;
+    
+}
+
+.code-floater p {
+    margin:0;
+    margin-top: -3px;
+    color:#7D99B0;
+    font-family:monospace;
+    font-size:1.25rem;
+    background-color: rgba(220,220,220,0.2);
+}
+
+.top-left {
+    position:absolute;
+    top:20px;
+    left:20px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    gap:10px;
+    background-color:rgba(255,255,255,0.3);
+    font-family:monospace;
+}
+
+/*Tray icons*/
+
+.tray-container {
+    position:fixed;
+    bottom:0px;
+    right:200px;
+    z-index:1000;
+}
+
+.tray {
+    height:46px;
+    width:150px;
+    width:100%;
+    border:none;
+}
+/*Clock code*/
+
+.clock-container {
+    padding: 20px 40px;
+    border-radius:10px;
+    font-family:"Courier New";
+    
+}
+
+
+#clock {
+    color:#c9c9c9;
+    font-size:3rem;
+    letter-spacing:2px; 
+}
+
+#ampm {
+    font-size: 1.5rem;
+    color:#c9c9c9;
+    margin-left:10px;
+}
+
+/*Second Clock code*/
+
+.switch-container {
+    position:fixed;
+    bottom:11px;
+    right:20px;
+    z-index:1000;
+}
+
+#clocks {
+    color:#969696;
+    font-size:1.20rem;
+    letter-spacing:2px;
+}
+
+#ampm2 {
+    color:#969696;
+}
+/*Icon code*/
 
 .chrome-button {
     margin:0;
@@ -153,22 +298,6 @@ body {
     border:none;
 }
 
-.gojo-sticker {
-    position:fixed;
-    bottom:60px;
-    right:20px;
-    margin:0;
-    width:200px;
-    height:auto;
-    z-index:1000;
-}
-
-.gojo {
-    padding-bottom:200px;
-    padding-right: 200px;
-    margin:0;
-    align-items:right
-}
 
 .rectangle {
     position:fixed;

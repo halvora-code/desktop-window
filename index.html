@@ -6,12 +6,13 @@
     <title>Desktop Home Page</title>
     <body>
 
+        <main>
+
+        </main>
+
         <div class="rectangle"></div>
 
-        <!--Gojo sticker below-->
-        <div class="gojo">
-            <img class="gojo-sticker" src="gojo.jpg" alt="img of saturo gojo">
-        </div>       
+        
         <!--Chrome Button below--> 
         <div class="chrome-button">
         <button class="chrome-button" onclick="window.location.href='code.html'">
@@ -60,5 +61,50 @@
                 <img class="spotify-image" src="Icons/spotify-icon.png" alt="spotify icon">
             </button>
         </div>
+        <!--Clock Code-->
+
+        <div class="top-left">
+        <div class="clock-container">
+            <h1>Welcome to my desktop page!</h1>
+            <p>Feel free to click on any icon in the taskbar :)</p>
+            <div id="clock">
+                <span id="hours">00</span>:
+                <span id="minutes">00</span>:
+                <span id="seconds">00</span>
+                <span id="ampm">AM</span>
+            </div>
+        </div>
+        </div>
+
+        <!--Floaters-->
+        <div class="floater-folder">
+            <button class="floater-folder">
+                <img class="float-image" src="folder-floater.png" alt="folder icon">
+                <p>Folder</p>
+            </button>
+        </div>
+
+        <div class="code-floater">
+            <button class="code-floater">
+                <img class="floater-image" src="code-floater.png" alt="code floater icon">
+                <p>VS Code</p>
+            </button>
+        </div>
+
+        <!--Second Clock for taskbar-->
+        <div class="switch-container">
+            <div id="clocks">
+            <span id="hours2">00</span>:
+            <span id="minutes2">00</span>:
+            <span id="seconds2">00</span>
+            <span id="ampm2">AM</span>
+            </div>
+        </div>
+
+        <!--tray icons-->
+        <div class="tray-container">
+            <img class="tray" src="trays.png" alt="system defaults">
+        </div>
+        <script src="script.js"></script>
     </body>
 </html>
